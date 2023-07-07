@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Livvic', serif;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #014E56;
+    height: 721px;
+}
+
+.header .navbar .logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 77px 0;
+}
+
+.header .navbar .menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-top: -107px;
+    margin-left: 280px;
+}
+
+.header .navbar .menu .link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.header .navbar .btn {
+    float: right;
+    margin-top: -32px;
+    width: 153px;
+    height: 48px;
+    border-radius: 24px;
+    background: #014E56;
+    border: 2px solid #ffffff;
+}
+
+.header .navbar .btn .us {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.header .main .title {
+    color: #ffffff;
+    margin-top: 160px;
+    font-size: 100px;
+}
+
+.header .main .title .talent {
+    color: #F67E7E;
+}
+
+.main .disk-left{
+    margin-left: -213px;
+    margin-top: -222px;
+}
+
+.header .main .border {
+    border: 1px solid #79C8C7;
+    background: #79C8C7;
+    width: 50px;
+    height: 4px;
+    margin-left: 680px;
+    margin-top: -205px;
+}
+
+.header .main .text {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 118px;
+    margin-left: 680px;
+}
+
+.header .main .disk-bottom {
+    margin-left: 760px;
+    margin-top: 104px;
+}
