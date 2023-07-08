@@ -178,3 +178,149 @@ body {
     line-height: 25px;
 }
 
+.about .container .img {
+    margin-left: 1269px;
+    margin-top: -150px;
+}
+
+/* success */
+.success {
+    background: #004047;
+    height: 745px;
+}
+
+.success .img {
+    margin-left: -150px;
+}
+
+.success .success-title {
+    text-align: center;
+    color: #ffffff;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 700;
+}
+
+.success .success-title span {
+    color: #79C8C7;
+}
+
+.success .group .tickle {
+    margin-left: 180px;
+    margin-top: 100px;
+}
+
+.success .group .text {
+    text-align: center;
+    margin-right: 800px;
+    margin-top: -20px;
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+.success .group .title {
+    text-align: center;
+    margin-right: 800px;
+    color: #79C8C7;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.success .group .person {
+    text-align: center;
+    font-style: italic;
+    margin-right: 800px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.success .group .user {
+    margin-left: 177px;
+    margin-top: 40px;
+}
+
+.success .group-2 {
+    margin-left: 47%;
+    margin-top: -282px;
+}
+
+.success .group-2 .tickle {
+    margin-top: -700px;
+}
+
+.success .group-2 .text-2 {
+    text-align: center;
+    margin-left: -580px;
+    margin-top: -20px;
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+.success .group-2 .title-2 {
+    text-align: center;
+    margin-left: -580px;
+    color: #79C8C7;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.success .group-2 .person-2 {
+    text-align: center;
+    font-style: italic;
+    margin-left: -580px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 13px;
+}
+
+.success .group-2 .user-2 {
+    margin-top: 41px;
+}
+
+.success .group-3 {
+    margin-left: 980px;
+    margin-top: -320px;
+}
+
+.success .group-3 .text-3 {
+    text-align: center;
+    margin-left: -175px;
+    margin-top: -26px;
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 25px;
+    font-weight: 600;
+} 
+
+.success .group-3 .title-3 {
+    text-align: center;
+    margin-left: -168px;
+    color: #79C8C7;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.success .group-3 .person-3 {
+    text-align: center;
+    font-style: italic;
+    margin-left: -168px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 13px;
+}
+
+.success .group-3 .user-3 {
+    margin-left: 8px;
+    margin-top: 41px;
+}
