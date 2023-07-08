@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: 1110px;
+    width: 1220px;
     margin: 0 auto;
 }
 
@@ -41,6 +41,7 @@ body {
 }
 
 .header .navbar .btn {
+    cursor: pointer;
     float: right;
     margin-top: -32px;
     width: 153px;
@@ -82,11 +83,98 @@ body {
 .header .main .text {
     font-size: 18px;
     color: #ffffff;
-    margin-top: 118px;
+    margin-top: 93px;
     margin-left: 680px;
 }
 
 .header .main .disk-bottom {
     margin-left: 760px;
-    margin-top: 104px;
+    margin-top: 132px;
 }
+
+/* about style */
+
+.about {
+    background: #012F34;
+    height: 684px;
+}
+
+.about .btn {
+    border: 1px solid #F67E7E;
+    background: #F67E7E;
+    width: 50px;
+    height: 4px;
+    margin-top: 150px;
+}
+
+.about .about-title {
+    margin-top: 50px;
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.about .icon {
+    margin-top: -170px;
+    margin-left: 650px;
+}
+
+.about .icon .para {
+    color: #F67E7E;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 100px;
+    margin-top: -77px;
+}
+
+.about .icon .para-2 {
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 100px;
+    margin-top: 18px;
+    line-height: 25px;
+}
+
+.about .icon-2 {
+    margin-top: 50px;
+    margin-left: 650px;
+}
+
+
+.about .icon-2 .para {
+    color: #F67E7E;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 100px;
+    margin-top: -77px;
+}
+
+.about .icon-2 .para-2 {
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 100px;
+    margin-top: 18px;
+    line-height: 25px;
+}
+
+.about .icon-3 {
+    margin-top: 50px;
+    margin-left: 650px;
+}
+
+
+.about .icon-3 .para {
+    color: #F67E7E;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 100px;
+    margin-top: -77px;
+}
+
+.about .icon-3 .para-2 {
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 100px;
+    margin-top: 18px;
+    line-height: 25px;
+}
+
