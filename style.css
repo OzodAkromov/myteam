@@ -324,3 +324,107 @@ body {
     margin-left: 8px;
     margin-top: 41px;
 }
+
+/* contact style */
+
+.content {
+    height: 200px;
+    background: #F67E7E;
+}
+
+.content .content-img {
+    margin-left: -150px;
+    margin-top: 56px;
+}
+
+.content .content-title {
+    margin-top: -150px;
+    margin-left: 140px;
+    font-size: 48px;
+    color: #012F34;
+}
+
+.content .border {
+    cursor: pointer;
+    float: right;
+    margin-right: 140px;
+    margin-top: -44px;
+    border: 2px solid #012F34;
+    height: 48px;
+    width: 153px;
+    border-radius: 24px;
+}
+
+.content .border .text {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* footer style */
+.footer {
+    background: #002529;
+    height: 196px;
+}
+
+.footer .logo {
+    margin-top: 48px;
+}
+
+.footer .footer-text {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.footer .footer-text-2 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 84px;
+    margin-top: -22px;
+    cursor: pointer;
+}
+
+.footer .list {
+    list-style: none;
+    margin-left: 325px;
+    margin-top: -85px;
+    line-height: 25px;
+}
+
+.footer .list .link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 60%;
+}
+
+.footer .facebook {
+    float: right;
+    margin-right: 100px;
+    margin-top: -100px;
+}
+
+.footer .pinterest {
+    float: right;
+    margin-right: 50px;
+    margin-top: -100px;
+}
+
+.footer .twitter {
+    float: right;
+    margin-right: 0px;
+    margin-top: -98px;
+}
+
+.footer .copyright {
+    float: right;
+    margin-top: -20px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 60%;
+}
