@@ -51,7 +51,12 @@ body {
     border: 2px solid #ffffff;
 }
 
-.header .navbar .btn .us {
+.header .navbar .btn:hover {
+    box-shadow: 0 0 15px #000;;
+}
+
+.header .navbar .btn .link {
+    text-decoration: none;
     color: #ffffff;
     font-size: 18px;
 }
@@ -78,6 +83,10 @@ body {
     height: 4px;
     margin-left: 680px;
     margin-top: -205px;
+}
+
+.header .main .border:hover {
+    box-shadow: 0 0 15px #000;
 }
 
 .header .main .text {
@@ -403,18 +412,21 @@ body {
 }
 
 .footer .facebook {
+    cursor: pointer;
     float: right;
     margin-right: 100px;
     margin-top: -100px;
 }
 
 .footer .pinterest {
+    cursor: pointer;
     float: right;
     margin-right: 50px;
     margin-top: -100px;
 }
 
 .footer .twitter {
+    cursor: pointer;
     float: right;
     margin-right: 0px;
     margin-top: -98px;
@@ -427,4 +439,381 @@ body {
     font-size: 15px;
     font-weight: 600;
     opacity: 60%;
+}
+
+/* about.html style */
+.page {
+    height: 517px;
+    background: #014E56;
+}
+
+.page .container {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+.page .nav .logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 77px 0;
+}
+
+.page .nav .menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-top: -107px;
+    margin-left: 280px;
+}
+
+.page .nav .menu .link {
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 21px;
+}
+
+.page .nav .btn {
+    cursor: pointer;
+    float: right;
+    margin-top: -32px;
+    width: 153px;
+    height: 48px;
+    border-radius: 24px;
+    background: #014E56;
+    border: 2px solid #ffffff;
+}
+
+.page .nav .btn:hover {
+    box-shadow: 0 0 15px #000;;
+}
+
+.page .nav .btn .link {
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.page .site-title {
+    font-size: 64px;
+    color: #ffffff;
+    font-family: 'Livvic';
+    font-weight: 700;
+    margin-top: 130px;
+}
+
+.page .border {
+    width: 50px;
+    height: 4px;
+    border: 1px solid #F67E7E;
+    background: #F67E7E;
+    margin-left: 405px;
+    margin-top: -60px;
+}
+
+.page .text {
+    width: 730px;
+    margin-left: 405px;
+    margin-top: 30px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.page .disk {
+    float: right;
+    margin-left: 100px;
+    margin-top: -52px;
+}
+
+/* directors */
+.directors {
+    height: 1105px;
+    background: #004047;
+}
+
+.directors .title {
+    text-align: center;
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: -30px;
+}
+
+.directors .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.directors .card {
+    width: 350px;
+    height: 253px;
+    background: #012F34;
+    margin-top: 100px;
+}
+
+.directors .card .user {
+    margin-left: 125px;
+    margin-top: 35px;
+}
+
+.directors .card .user-name {
+    font-size: 18px;
+    color: #79C8C7;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 13px;
+}
+
+.directors .card .site-title {
+    font-size: 15px;
+    color: #ffffff;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.directors .card .plus {
+    cursor: pointer;
+    margin-left: 145px;
+    margin-top: 25px;
+}
+
+.directors .user-2 {
+    margin-left: 25px;
+    margin-top: 37px;
+}
+
+.directors .card .sub-title {
+    text-align: center;
+    color: #79C8C7;
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.directors .card .text {
+    width: 254px;
+    text-align: center;
+    margin-left: 48px;
+    margin-top: 14px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+}
+
+.directors .card .logo {
+    cursor: pointer;
+    margin-left: 142px;
+    margin-top: 24px;
+}
+
+.directors .card .logo-2 {
+    cursor: pointer;
+    margin-left: 16px;
+}
+
+.directors .card .up {
+    cursor: pointer;
+    margin-left: 148px;
+    margin-top: 30px;
+}
+
+.directors .right {
+    float: right;
+    margin-top: 40px;
+}
+
+/* clients style */
+.clients {
+    height: 437px;
+    background: #012F34;
+}
+
+.clients .title {
+    text-align: center;
+    font-size: 48px;
+    color: #ffffff;
+    margin-top: -60px;
+}
+
+.clients .logo {
+    margin-top: 100px;
+}
+
+.clients .jakarta {
+    margin-left: 100px;
+}
+
+.clients .guardian {
+    margin-left: 100px;
+}
+
+.clients .tech {
+    margin-left: 100px;
+}
+
+.clients .gadgets {
+    margin-left: 100px;
+}
+
+/* contact.html style */
+.header {
+    height: 789px;
+    background: #014E56;
+}
+
+.header .contact-image {
+    margin-top: -400px;
+}
+
+.header .contact-image-2 {
+    float: right;
+    margin-top: 108px;
+}
+
+.header .nav .logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 77px 0;
+}
+
+.header .nav .menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-top: -107px;
+    margin-left: 280px;
+}
+
+.header .nav .menu .link {
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 21px;
+}
+
+.header .nav .btn {
+    cursor: pointer;
+    float: right;
+    margin-top: -32px;
+    width: 153px;
+    height: 48px;
+    border-radius: 24px;
+    background: #014E56;
+    border: 2px solid #ffffff;
+}
+
+.header .nav .btn:hover {
+    box-shadow: 0 0 15px #000;;
+}
+
+.header .nav .btn .link {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.header .title {
+    margin-top: 130px;
+    color: #ffffff;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.header .sub-title {
+    font-size: 32px;
+    color: #F67E7E;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.header .manager .icon {
+    margin-top: 32px;
+}
+
+.header .manager .icon .para-2 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-top: -50px;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+.header .manager .icon-2 {
+    margin-top: 50px;
+}
+
+.header .manager .icon-2 .para-2 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-top: -50px;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+.header .manager .icon-3 {
+    margin-top: 50px;
+}
+
+.header .manager .icon-3 .para-2 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 100px;
+    margin-top: -50px;
+    line-height: 25px;
+}
+
+.contact{
+    width: 540px;
+    margin-left: 670px;
+    margin-top: -400px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input {
+    border: 1px solid #ffffff;
+    background: transparent;
+    padding: 20px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.contact .input {
+    margin-top: 24px;
+}
+
+.contact input::placeholder {
+    font-size: 16px;
+    color: #ffffff;
+    opacity: 60%;
+    padding: 30px ;
+}
+
+.contact .btn {
+    margin-top: 24px;
+    width: 123px;
+    height: 48px;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.contact .btn a {
+    color: #004047;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
 }
